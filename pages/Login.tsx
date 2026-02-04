@@ -475,8 +475,8 @@ const Login: React.FC<LoginProps> = ({ onLogin, error, opds, progress, news }) =
                <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                   <div className="space-y-10">
                      <ContactItem icon={<MapPin size={28} />} title="Kantor Pusat" text="Kantor Gubernur NTB, Jl. Pejanggik No. 12, Mataram, Nusa Tenggara Barat" color="blue" isLight />
-                     <ContactItem icon={<Phone size={28} />} title="Hotline Monitoring" text="(0370) 6211234 • Senin - Jumat: 08:00 - 16:00 WITA" color="emerald" isLight />
-                     <ContactItem icon={<Mail size={28} />} title="Surel Elektronik" text="biropbj@ntbprov.go.id • helpdesk.sirup@ntbprov.go.id" color="rose" isLight />
+                     <ContactItem icon={<Phone size={28} />} title="Hotline Monitoring" text="(0370) 625274 • Senin - Jumat: 08:00 - 16:00 WITA" color="emerald" isLight />
+                     <ContactItem icon={<Mail size={28} />} title="Surel Elektronik" text="biropbj@ntbprov.go.id • helpdesk.lpsentb@gmail.com" color="rose" isLight />
                   </div>
 
                   <div className="bg-white/90 backdrop-blur-md p-10 rounded-[3rem] shadow-2xl border border-slate-200 space-y-8 relative overflow-hidden group">
@@ -485,13 +485,13 @@ const Login: React.FC<LoginProps> = ({ onLogin, error, opds, progress, news }) =
                        <div className="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center">
                          <AlertCircle size={28} />
                        </div>
-                       <h3 className="text-2xl font-black text-slate-800">Helpdesk WA</h3>
+                       <h3 className="text-2xl font-black text-slate-800">Helpdesk LPSE NTB</h3>
                      </div>
                      <p className="text-slate-600 font-medium leading-relaxed">
                        Butuh bantuan teknis terkait penginputan RUP atau integrasi SIPD? Hubungi admin pendamping kami melalui WhatsApp.
                      </p>
                      <a 
-                      href="https://wa.me/6281234567890" 
+                      href="https://wa.me/81139011909 " 
                       target="_blank" 
                       className="flex items-center justify-center gap-3 w-full bg-[#25D366] text-white py-5 rounded-2xl font-black uppercase tracking-widest hover:bg-[#1fae53] transition-all shadow-xl shadow-green-900/20 active:scale-95 transform border-b-4 border-green-700"
                      >
