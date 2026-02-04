@@ -97,7 +97,7 @@ const Login: React.FC<LoginProps> = ({ onLogin, error, opds, progress, news }) =
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center animate-in fade-in duration-1000"
         style={{ 
-          backgroundImage: 'url("https://storage.ntbprov.go.id/biropbj/media/kantor-gubernur-ntb.jpg")',
+          backgroundImage: 'url("https://storage.ntbprov.go.id/biropbj/media/kantor-gub.jpg")',
           filter: activeView === 'login' ? 'brightness(0.5) saturate(0.8)' : 'brightness(1) opacity(0.03)'
         }}
       />
