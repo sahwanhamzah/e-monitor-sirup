@@ -101,7 +101,7 @@ const Login: React.FC<LoginProps> = ({ onLogin, error, opds, progress, news }) =
           filter: activeView === 'login' ? 'brightness(0.5) saturate(0.8)' : 'brightness(1) opacity(0.03)'
         }}
       />
-      <div className="absolute inset-0 z-[1] opacity-10 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
+      <div className="absolute inset-0 z-[1] opacity-5 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
 
       {/* Content Wrapper */}
       <div className="relative z-10 min-h-screen flex flex-col">
